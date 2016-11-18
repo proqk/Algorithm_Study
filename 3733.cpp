@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define MN 10000000
 long long int sum = 0, ss, x, y;
-int s, e, len = 0, flag;
+int s, e;
 
 int dp[MN + 1] = { 1,1, };
 
